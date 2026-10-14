@@ -118,9 +118,9 @@ The data shows improvement after the programme. That isn't the same as proving t
 5. Study what worked in Technology and test whether it can lift results in departments like Finance.
 
 ## Project Files
-[View Participant A report](./Participant_A_Wellbeing_Report.pptx)
+[View Participant A report](./Participant_A_Wellbeing_Report.pptx.)
 
-[View Full Cohort report](./Meco_Wellbeing_Cohort_Report.pptx)
+[View Full Cohort report](./Meco_Wellbeing_Cohort_Report.pptx.)
 
 ## Contact Information
 * Email: aladeloyeesther616@gmail.com
