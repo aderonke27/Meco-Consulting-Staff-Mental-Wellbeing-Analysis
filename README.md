@@ -61,8 +61,6 @@ I summed each set of seven, then multiplied by 2, because the official severity 
 
 **WHO-5 scoring.** I summed the five items (0 to 25) and multiplied by 4 to get a 0 to 100 score. Higher is better. A score below 50 is flagged as a possible sign of poor wellbeing. The workbook also splits scores into Low, Moderate and High bands for the cohort counts.
 
-**What the workbook does.** The coding sheets turn text into numbers and calculate each score. One sheet per measure (Depression, Anxiety, Stress, WHO) pulls the pre and post scores, classifies each person with `IFS`, calculates the shift (post minus pre) and builds a transition label like "Mild to Normal" with `CONCAT`. `COUNTIF` counts people per band before and after, and PivotTables handle the demographic cuts. Every calculation is a live formula. Nothing is pasted in as a value.
-
 ## Stage 1: One Participant
 Participant A is a 26-year-old woman in Technology. She's a Junior, full-time, with 3 years of experience. These are her scores:
 * Depression went from 16 to 4, Moderate to Normal
@@ -79,22 +77,20 @@ One person's improvement says nothing about whether the programme works. She mig
 I ran the same scoring on all 28 matched participants and compared averages and severity bands before and after.
 
 **Average scores:**
-- Depression fell from 12.4 (Mild) to 6.1 (Normal), a 51% drop
-- Anxiety fell from 20.7 (Extremely Severe) to 10.6 (Moderate), a 49% drop
-- Stress fell from 17.5 (Mild) to 10.4 (Normal), a 41% drop
-- WHO-5 rose from 62 to 75, a 13-point gain, which moves the cohort average from Moderate to High wellbeing
+* Depression fell from 12.4 (Mild) to 6.1 (Normal), a 51% drop
+* Anxiety fell from 20.7 (Extremely Severe) to 10.6 (Moderate), a 49% drop
+* Stress fell from 17.5 (Mild) to 10.4 (Normal), a 41% drop
+* WHO-5 rose from 62 to 75, a 13-point gain, which moves the cohort average from Moderate to High wellbeing
 
-**Distributions.** The share of people in the High wellbeing band went from 21% to 75%. For anxiety, 68% of participants started in the Extremely Severe band and 7% ended there. For depression, 79% finished in the Normal range.
+The share of people in the High wellbeing band went from 21% to 75%. For anxiety, 68% of participants started in the Extremely Severe band and 7% ended there. For depression, 79% finished in the Normal range.
 
 **What stood out:**
-- Anxiety had the largest absolute drop, about 10 points on average. It was also the biggest problem at the start.
-- Depression had the largest relative drop.
-- Stress moved the least, though it started as the mildest problem, so there was less room to fall.
-- Junior staff, who make up 54% of the cohort, improved the most on every measure. Senior and Manager staff barely moved, but those groups are tiny (3 and 2 people), so I treat that as something to watch, not a conclusion.
-- Technology showed the strongest all-round improvement. Finance had solid anxiety and stress gains but the smallest depression improvement.
-- 2 of the 28 matched participants did not improve.
-
-That last point mattered to me. Data analysis isn't only asking whether the average got better. It's asking who improved, who didn't, by how much, and what else to investigate.
+* Anxiety had the largest absolute drop, about 10 points on average. It was also the biggest problem at the start.
+* Depression had the largest relative drop.
+* Stress moved the least, though it started as the mildest problem, so there was less room to fall.
+* Junior staff, who make up 54% of the cohort, improved the most on every measure. Senior and Manager staff barely moved, but those groups are tiny (3 and 2 people), so I treat that as something to watch, not a conclusion.
+* Technology showed the strongest all-round improvement. Finance had solid anxiety and stress gains but the smallest depression improvement.
+* 2 of the 28 matched participants did not improve.
 
 ## How Participant A Compares to the Cohort
 Putting the two stages side by side shows why the individual view alone would have misled. Participant A's depression fell by 12 points against a cohort average of 6.3. Her anxiety fell by 14 against 10.1. Her stress fell by only 4 against 7.1, so she improved less than the typical participant on that one. Her WHO-5 gain of 12 points sits close to the cohort's 13.
@@ -107,12 +103,12 @@ Every measure moved in the right direction on average, so the programme is clear
 The data shows improvement after the programme. That isn't the same as proving the programme caused it.
 
 ## Limitations
-- **Small sample.** There are 28 matched people, and the subgroups are much smaller, so job-level and department patterns are indicative only.
-- **No control group.** I can't separate the programme's effect from natural recovery, seasonal mood or unrelated events during the same six weeks.
-- **Self-report bias.** Participants know the programme is being evaluated and may report feeling better than they do.
-- **Non-response.** The 2 people who skipped the post-survey might differ from everyone else. If they dropped out because the programme wasn't helping, the results are too optimistic.
-- **One follow-up point.** I only have Week 6, so I can't say whether the gains last.
-- **No significance testing.** I report averages and band counts, not statistical tests.
+* **Small sample:** There are 28 matched people, and the subgroups are much smaller, so job-level and department patterns are indicative only.
+* **No control group:** I can't separate the programme's effect from natural recovery, seasonal mood or unrelated events during the same six weeks.
+* **Self-report bias:** Participants know the programme is being evaluated and may report feeling better than they do.
+* **Non-response:** The 2 people who skipped the post-survey might differ from everyone else. If they dropped out because the programme wasn't helping, the results are too optimistic.
+* **One follow-up point:** I only have Week 6, so I can't say whether the gains last.
+* **No significance testing:** I report averages and band counts, not statistical tests.
 
 ## Recommendations
 1. Continue and expand the programme, since the overall signal is positive.
@@ -122,5 +118,9 @@ The data shows improvement after the programme. That isn't the same as proving t
 5. Study what worked in Technology and test whether it can lift results in departments like Finance.
 
 ## Project Files
+[View Participant A report](/Participant_A_Wellbeing_Report.ppbx)
+[View Full Cohort report](/Meco_Wellbeing_Cohort_Report.ppbx)
 
 ## Contact Information
+* Email: aladeloyeesther616@gmail.com
+* LinkedIn: https://linkedin.com/in/estheraderonke
