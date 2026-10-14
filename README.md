@@ -19,7 +19,7 @@
 ## Overview
 Meco Consulting, a mid-sized professional services firm, ran a 6-week mental health and wellbeing programme made up of workshops, peer support sessions and guided reflection exercises. Every participant completed the same survey at the start (Week 0) and again at the end (Week 6).
 
-In this project, I was the data analyst supporting the company's HR and People team. The project ran in two stages, using the DASS-21 and WHO-5 questionnaires and this repo treats them as one piece of work:
+In this project, I worked as the data analyst supporting the company's HR and People team. The project ran in two stages, using the DASS-21 and WHO-5 questionnaires and this repo treats them as one piece of work:
 
 It starts with one participant's results and ends with the whole cohort, because one person's improvement can't tell you whether a programme works.
 * Stage 1: I analysed a single participant's before and after scores and wrote a report meant to be shared with that person.
